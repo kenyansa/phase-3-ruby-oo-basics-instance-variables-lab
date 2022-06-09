@@ -11,3 +11,13 @@ lassie = Dog.new
 lassie.name = "Lassie"
 
 lassie.name
+
+#Getters and setters using attr_accessor method
+class Recipe
+    attr_accessor :name
+    def initialize(name)
+        @name = name
+    end 
+end
+r1 = Recipe.new("Grilled Chicked")
+r1.name = "Baked Chicked"
