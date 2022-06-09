@@ -1,9 +1,9 @@
 class Dog
-    def name=(dogs_name)
-        @this_dogs_name = dogs_name
+    def name=(dogs_name) #getter method
+        @this_dogs_name = dogs_name #@this_dog_name is an insance variable that's assigned the value of the setter method
     end
 
-    def name
+    def name #getter method
         @this_dogs_name
     end 
 end
